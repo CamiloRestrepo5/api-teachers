@@ -1,6 +1,7 @@
+// express es el framework que me permite trabjar con http
 import { Router } from "express";
 import { TeacherRepository } from "./../../infra/repositories/TeacherRepository";
-import { TeacherController } from "app/controllers/TeacherController";
+import { TeacherController } from './../controllers/TeacherController';
  
 export class TeacherRoutes {
     private _router: Router;

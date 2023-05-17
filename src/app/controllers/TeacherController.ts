@@ -18,7 +18,7 @@ export class TeacherController {
             return response.status(201).json(createdTeacher);
 
         } catch (error) {
-            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
             console.log(error);
             return response.status(500).json(
                 {
